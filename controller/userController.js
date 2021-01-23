@@ -1,5 +1,5 @@
 const dishesModel = require("../model/dishesModel");
-const userModel = require("../Model/usersModel");
+const userModel = require("../model/usersModel");
 
 async function updateProfilePhoto(req, res) {
     try {
