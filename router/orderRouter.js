@@ -1,6 +1,6 @@
 const express = require("express");
 const { getAllOrder, addOrder, deleteOrder, addcart } = require("../controller/orderController");
-const { isLoggedIn} = require("../Controller/authController");
+const { isLoggedIn} = require("../controller/authController");
 
 let orderRouter = express.Router();
 

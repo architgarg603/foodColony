@@ -1,5 +1,5 @@
 const express = require("express");
-const { isLoggedIn, logout } = require("../Controller/authController");
+const { isLoggedIn, logout } = require("../controller/authController");
 const { getLoginPage, getSignUpPage, getmenu, getprofile, getorderHistory, getHomePage, faq, contact, getChangeMenu, getcart } = require("../controller/viewController");
 
 
