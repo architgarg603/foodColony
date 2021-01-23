@@ -25,7 +25,7 @@
     }
 
     .container{
-        background-image: url(./images/login/port.jpg);
+        background-image: url(../images/login/port.jpg);
         background-size: cover;
         background-position: 0% 30%;
         padding: 0px;

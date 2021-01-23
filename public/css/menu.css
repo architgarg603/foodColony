@@ -125,6 +125,7 @@
     align-items: center;
     font-size: large;
     border-radius: 20px;
+    cursor: pointer;
 
 }
 .second{
