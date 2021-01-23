@@ -79,6 +79,7 @@
     display: flex;
     font-size: large;
     text-decoration: none;
+    color: black;
   }
   .first {
     font-size: 40px;

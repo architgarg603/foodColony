@@ -36,6 +36,7 @@
     display: flex;
     font-size: large;
     text-decoration: none;
+    color: black;
   }
 .wrap{
     min-height: 100vh;

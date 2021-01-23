@@ -30,7 +30,7 @@ window.addEventListener("load",function(){
         })
     }
     cartbtn.addEventListener("click",async function(){
-        let details = await axios.post("http://localhost:3000/order/cart/add",{
+        let details = await axios.post("https://foodcolony.herokuapp.com/order/cart/add",{
             "cart":order
         });
         window.location.href = "/cart"
