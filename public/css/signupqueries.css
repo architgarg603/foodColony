@@ -135,7 +135,7 @@
         padding-bottom: 5%;
     }
     .container{
-        height: 870px;
+        min-height: fit-content;
         margin-top: 10%;
         background-color: transparent;
         background-image: url(../images/signup/signupquery.jpg);
