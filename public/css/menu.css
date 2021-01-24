@@ -141,9 +141,9 @@
 }
 
 .dish{
-    width: 85px;
+    width: 80px;
     height: 150px;
-    margin: 15px 20px;
+    margin: 15px 15px;
     background-color: rgba(168, 165, 165, 0.15);
     border-radius: 40px;
     display: flex;
