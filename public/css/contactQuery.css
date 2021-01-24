@@ -1,6 +1,6 @@
 @media only screen and (max-width: 840px){
     .container{
-        background-image: url(../images/contact/bk.jpeg);
+        background-image: url(./bk.jpeg);
         background-size:cover;
         background-position-x: 45%;
     }
@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 924px){
     .container{
-        background-image: url(../images/contact/bk.jpeg);
+        background-image: url(./bk.jpeg);
         background-size:cover;
         background-position-x: 45%;
     }
@@ -41,7 +41,7 @@
 
 @media only screen and (max-width: 800px){
     .container{
-        background-image: url(../images/contact/bk.jpeg);
+        background-image: url(./bk.jpeg);
         background-size:cover;
         background-position-x: 30%;
     }
@@ -117,7 +117,7 @@
 }
 @media only screen and (max-width: 533px){
     .container{
-        background-image: url(../images/contact/bk.jpeg);
+        background-image: url(./bk.jpeg);
         background-size:cover;
         background-position: 68% 0%;
         
@@ -149,7 +149,7 @@
 }
 @media only screen and (max-width: 470px){
     .container{
-        background-image: url(../images/contact/bk.jpeg);
+        background-image: url(./bk.jpeg);
         background-size:cover;
         background-position: 70% 0%;
         
@@ -181,7 +181,7 @@
 }
 @media only screen and (max-width: 357px){
     .container{
-        background-image: url(../images/contact/bk.jpeg);
+        background-image: url(./bk.jpeg);
         background-size:cover;
         background-position: 68% 0%;
         
@@ -213,7 +213,7 @@
 }
     @media only screen and (max-width: 331px){
         .container{
-            background-image: url(../images/contact/bk.jpeg);
+            background-image: url(../images/contact/bk.jpeg));
             background-size:cover;
             background-position: 68% 0%;
             

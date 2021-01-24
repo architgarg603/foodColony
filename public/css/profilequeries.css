@@ -1,30 +1,24 @@
-@media only screen and (max-height: 550px){
-    .photo{
-        height: 100px;
-        width: 100px;
-        margin-bottom: 20px;
-
-    }
-    .name{
-       margin-bottom: 30px;
-    }
-    .wrap{
-       background-position: -20px 170px;
-   }
-}
-@media only screen and (max-height: 450px){
-    .photo{
-        height: 80px;
-        width: 80px;
-        margin-bottom: 20px;
-
-    }
-    .name{
-       margin-bottom: 20px;
-    }
+@media only screen and (max-width: 953px){
     .common{
-        margin: 10px 35px;
+        margin: 10px 15px;
     }
+    .first{
+        font-size: xx-large;
+       }
+   .cart i{
+        font-size: medium;
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+    }
+    .pDetails{
+        margin-left: 120px;
+    }
+    .profilePic{
+        margin-right: 85px;
+        
+    }
+    
 }
 @media only screen and (max-width: 900px){
     .common{
@@ -39,21 +33,18 @@
         width: 40px;
         border-radius: 10px;
     }
-}
-@media only screen and (max-width: 780px){
-   .photo{
-        width: 90px;
-        height: 90px;
+    .second{
+        
+         padding-left: 4%;
+         padding-right: 4%;
     }
-   .first{
-       font-size: 30px;
-      }
-   .cart i{
-       font-size: small;
-       height: 30px;
-       width: 30px;
-       border-radius: 10px;
-   }
+    .pDetails{
+        margin-left: 194px;
+    }
+    .profilePic{
+        margin-right: 106px;
+    }
+
 }
 @media only screen and (max-width:810px){
     .common{
@@ -68,23 +59,39 @@
     }
     
 }
-@media only screen and (max-width: 760px){
-    .common{
-        margin: 10px 10px;
-        font-size: medium;
+ @media only screen and (max-width: 782px){
+     .common{
+         margin: 10px 10px;
+         font-size: medium;
+     }
+     .common i{
+         margin-right: 15px;
+ 
+     }
+     
+     .pDetails{
+         width: 300px;
+         margin-left: 16px;
+         
     }
-    .common i{
-        margin-right: 15px;
+      .wrap{
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center;
+          margin-top: 50px;
+      }   
+      .profilePic{
+          margin-top: 25px;
+          margin-left: 89px;
+      }
 
-    }
-    
-    .pDetails{
-        width: 300px;
-    }
-        
-}
-
-
+      .photo img, .photo{
+          width: 90px;
+          height: 90px;
+      }
+      
+ }
 @media only screen and (max-width: 690px){
    .first{
        font-size: 25px;
@@ -98,12 +105,12 @@
     .name{
         font-size: medium;
     }
-    .photo{
+    .photo, .photo img{
         height: 70px;
         width: 70px;
     }
     .common i{
-        margin-right: 15px;
+        margin-right: 10px;
         font-size: small;
        }
    .cart i{
@@ -124,13 +131,14 @@
        width: 250px;
    }
 }
-@media only screen and (max-width: 570px){
+@media only screen and (max-width: 578px){
     .name{
         margin-bottom: 30px;
+        
     }
-    .photo{
-        height: 60px;
-        width: 60px;
+    .photo, .photo img{
+        height: 50px;
+        width: 50px;
     }
     .common i{
         margin-right: 10px;
@@ -141,11 +149,35 @@
   }
   .wrap{
     font-size: small;
+    overflow: auto;
 }
-.pDetails{
-    width: 200px;
-}
+   .pDetails{
+    width: 100%;
+    padding-top: 0px;
+    overflow: hidden;
+    margin: 0px;
+   }
+   .profilePic{
+    margin-left: 81px;
+    }
+    #edit{
+        display: none;
+    }
 
+}
+@media only screen and (max-height: 550px){
+    .photo{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 20px;
+
+    }
+    .name{
+       margin-bottom: 30px;
+    }
+    .wrap{
+       background-position: -20px 170px;
+   }
 }
 @media only screen and (max-width: 500px){
    .name{
@@ -193,6 +225,8 @@
      height: fit-content;
   align-items: center;
   justify-content: center;
+  margin: 0px;
+    width: 100%;
 
      flex-direction: column-reverse;
  }
@@ -205,10 +239,23 @@
  .profilePic{
     padding-bottom: 5px;
     margin-bottom: 5px;
-    height: 150px;
      
  }
  }
+ @media only screen and (max-height: 450px){
+    .photo{
+        height: 80px;
+        width: 80px;
+        margin-bottom: 20px;
+
+    }
+    .name{
+       margin-bottom: 20px;
+    }
+    .common{
+        margin: 10px 35px;
+    }
+}
 
 @media only screen and (max-width: 400px){
    
@@ -225,27 +272,28 @@
     height: fit-content;
  align-items: center;
  justify-content: center;
-
-    flex-direction: column-reverse;
-}
+overflow: hidden;
+ flex-direction: column-reverse;
+   }
 .pDetails{
     width: 250px;
     margin-top: 5px;
-    padding-top: 5px;;
+    padding-top: 5px;
     
 }
 .profilePic{
    padding-bottom: 5px;
-   margin-bottom: 5px;
-   height: 150px;
+   margin-bottom: 25px;
    width: 250px;
    padding-right: 50px;
+}
+.common a{
+    font-size: small;
 }
 }
 
 @media only screen and (max-width: 350px){
     .pDetails{
-        width: 300px;
         margin-top: 5px;
         padding-top: 5px;
         
@@ -254,9 +302,8 @@
     .profilePic{
        padding-bottom: 5px;
        margin-bottom: 5px;
-       height: 150px;
        width: 250px;
-       padding-right: 60px;
+       padding-right: 0px;
     }
 
 }

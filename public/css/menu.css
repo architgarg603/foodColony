@@ -32,6 +32,7 @@
     border-radius: 10px;
     
 }
+
 .common a {
     display: flex;
     font-size: large;
@@ -89,6 +90,7 @@
     cursor: pointer;
     
 }
+
 .first{
     font-size: 40px;
     font-weight: 800;
@@ -125,7 +127,6 @@
     align-items: center;
     font-size: large;
     border-radius: 20px;
-    cursor: pointer;
 
 }
 .second{
@@ -140,7 +141,7 @@
 }
 
 .dish{
-    width: 100px;
+    width: 85px;
     height: 150px;
     margin: 15px 20px;
     background-color: rgba(168, 165, 165, 0.15);

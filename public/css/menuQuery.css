@@ -54,6 +54,11 @@
        width: 30px;
        border-radius: 10px;
    }
+   
+   .photo img, .photo{
+    width: 90px;
+    height: 90px;
+}
 }
 @media only screen and (max-width: 760px){
     .common{
@@ -78,12 +83,12 @@
     .name{
         font-size: medium;
     }
-    .photo{
+    .photo, .photo img{
         height: 70px;
         width: 70px;
     }
     .common i{
-        margin-right: 15px;
+        margin-right: 10px;
         font-size: small;
        }
    .cart i{
@@ -102,9 +107,9 @@
     .name{
         margin-bottom: 30px;
     }
-    .photo{
-        height: 60px;
-        width: 60px;
+    .photo, .photo img{
+        height: 50px;
+        width: 50px;
     }
     .common i{
         margin-right: 10px;
@@ -141,6 +146,10 @@
        height: 30px;
        width: 30px;
    }
+   
+.common a{
+    font-size: small;
+}
 }
 @media only screen and (max-width: 350px){
    .item .img img{
@@ -168,4 +177,5 @@
        width: 20px;
        font-size: medium;
    }
+   
 }

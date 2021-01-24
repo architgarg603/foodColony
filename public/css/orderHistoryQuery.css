@@ -1,38 +1,4 @@
-@media only screen and (max-height: 550px) {
-    .photo {
-      height: 100px;
-      width: 100px;
-      margin-bottom: 20px;
-    }
-    .name {
-      margin-bottom: 30px;
-    }
-    .wrap {
-      background-position: -20px 170px;
-    }
-  }
-  @media only screen and (max-height: 450px) {
-    .photo {
-      height: 80px;
-      width: 80px;
-      margin-bottom: 20px;
-    }
-    .name {
-      margin-bottom: 20px;
-    }
-    .common {
-      margin: 10px 35px;
-    }
-    .todaysOrder {
-      font-size: 15px;
-    }
-    li {
-      font-size: 5px;
-    }
-    .sno {
-      margin-right: 5px;
-    }
-  }
+
   @media only screen and (max-width: 900px) {
     .common {
       margin: 10px 15px;
@@ -80,7 +46,7 @@
       font-size: 25px;
     }
     li {
-      font-size: x-small;
+      font-size: small;
     }
   }
   @media only screen and (max-width: 650px) {
@@ -88,6 +54,13 @@
       margin: 20px 10px;
       font-size: small;
     }
+    .common i {
+      margin-right: 10px;
+      font-size: x-small;
+  }
+  .common a{
+    font-size: medium;
+  }
     .name {
       font-size: medium;
     }
@@ -95,10 +68,7 @@
       height: 70px;
       width: 70px;
     }
-    .common i {
-      margin-right: 15px;
-      font-size: small;
-    }
+    
     .cart i {
       margin-top: 15px;
     }
@@ -183,8 +153,32 @@
     .item .amt {
       margin-right: 10px;
     }
+    .item .completed{
+      height: 50%;
+    }
   }
-  
+  @media only screen and (max-height: 450px) and (orientation:portrait) {
+    .photo {
+      height: 80px;
+      width: 80px;
+      margin-bottom: 20px;
+    }
+    .name {
+      margin-bottom: 20px;
+    }
+    .common {
+      margin: 10px 35px;
+    }
+    .todaysOrder {
+      font-size: 15px;
+    }
+    li {
+      font-size: 5px;
+    }
+    .sno {
+      margin-right: 5px;
+    }
+  }
   @media only screen and (max-width: 400px) {
     .first {
       font-size: large;
@@ -195,7 +189,7 @@
       width: 30px;
     }
     li {
-      font-size: 7px;
+      font-size: 9px;
     }
     .sno {
       margin-right: 3px;
@@ -227,6 +221,9 @@
     .item .amt {
       margin-right: 6px;
     }
+    .common a{
+      font-size: small;
+    }
   }
   @media only screen and (max-width: 350px) {
     .item .img img {
@@ -238,9 +235,6 @@
     .item {
       padding: 25px 10px 10px 10px;
       height: fit-content;
-    }
-    .item .itemName {
-      font-size: medium;
     }
     .item .itemDetail {
       font-size: x-small;

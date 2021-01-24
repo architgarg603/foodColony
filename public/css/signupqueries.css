@@ -27,8 +27,6 @@
         height: fit-content;
     }
 }
-
-
 @media only screen and (max-width:795px) {
     .nav-btn{
         width: 55%;
@@ -54,7 +52,7 @@
         margin-right: 50px;
     }
     .value{
-        font-size: medium;
+        font-size: small;
         font-weight: 600;
         margin-right: 50px;
     }
@@ -135,10 +133,10 @@
         padding-bottom: 5%;
     }
     .container{
-        min-height: fit-content;
+        height: 870px;
         margin-top: 10%;
         background-color: transparent;
-        background-image: url(../images/signup/signupquery.jpg);
+        background-image: url(./port.jpg);
         background-position: cover;
         padding: 0px;
         background-position: 50% 60%;
@@ -150,7 +148,11 @@
 
 @media only screen and (max-width:800px) and (orientation : portrait) {
 
+    .confirmpage{
+        
+        padding: 60px 0px;
     
+        }
     
     .page{
         height: fit-content;
@@ -163,7 +165,7 @@
         margin: 0px;
     }
     .details{
-        padding: 60px 50px;
+        padding: 10px 50px;
     }
 }
 
@@ -201,10 +203,13 @@
         display: none;
     }
 }
-@media only screen and (max-width:510px){
+@media only screen and (max-width:510px)and (orientation : portrait){
     .cwrap{
-        width: 60%;
+        width: 90%;
     } 
+    .confirmpage{
+        height: 1000px;
+    }
     .pic img{
         height: 80px;
         width: 160px;
@@ -215,9 +220,9 @@
         padding-bottom: 40px;
     }
 }
-@media only screen and (max-width:376px){
+@media only screen and (max-width:376px)and (orientation : portrait){
     .cwrap{
-        width: 70%;
+        width: 90%;
     } 
     .pic img{
         height: 80px;
@@ -225,6 +230,7 @@
         margin-top: 20px;
     
     }
+    
     .btns{
         padding-bottom: 40px;
     }
