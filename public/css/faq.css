@@ -93,7 +93,7 @@ body{
 
 
 .jumbotron{
-    background: linear-gradient(rgba(41, 41, 41, 0.089) , rgba(0, 0, 0, 0.438)),url(images/bg.jpg) ;
+    background: linear-gradient(rgba(41, 41, 41, 0.089) , rgba(0, 0, 0, 0.438)),url(../images/faq/bg.jpg) ;
     background-size: cover ;
     height: 400px;
     background-repeat: no-repeat;
