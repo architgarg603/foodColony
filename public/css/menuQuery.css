@@ -134,6 +134,9 @@
    .common i{
        display: none;
    }
+   .dish{
+       width: 80px;
+   }
 }
 
 @media only screen and (max-width: 400px){
